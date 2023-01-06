@@ -14,7 +14,7 @@
     background-size: cover;
 }
 
-.header-title-layouts {
+.header-title-area {
     text-align: right;
     margin-right: 250px;
 }
@@ -34,7 +34,7 @@
     margin-bottom: 10px;
 }
 
-.btn-primary {
+.btn {
     font-size: 20px;
     color: rgb(255, 255, 255);
     padding: 15px 30px;
@@ -63,7 +63,7 @@
 }
 
 .content-title {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Pacifico', cursive;
     color: #2b2828;
     font-size: 30px;
     font-weight: 800;
@@ -72,7 +72,7 @@
 }
 
 .content-description {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kalam', cursive;
     color: #424242;
     font-size: 15px;
     line-height: 25px;
@@ -93,4 +93,51 @@ margin-left: 5px;
 }
 .content-description {
 font-size: 15px;
+}
+
+/* skills section */
+.my-skills{
+    margin: 60px 200px 50px 200px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    text-align: center;
+}
+.skill-title{
+    margin: 10px 0;
+    font-family: 'Pacifico', cursive;
+}
+.skill-description{
+    font-family: 'Pacifico', cursive;
+
+}
+/*background*/
+.background{
+    margin: 70px 225px 50px 255px;
+}
+.background-image{
+    background-image: linear-gradient(to right, rgba(255, 17, 0, 0.575) , rgba(202, 202, 5, 0.233)), url(../images/watch.png);
+    padding: 50px 100px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.btn-primary{
+    font-size: 20px;
+    color: rgb(243, 89, 0);
+    padding: 15px 30px;
+    font-weight: 500;
+    background: rgb(234, 255, 245);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.background-title{
+    font-size: 35px;
+    font-weight: 800;
+    height: 64px;
+    color: white;
+    margin-bottom: 20px;
 }
