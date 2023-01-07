@@ -177,10 +177,10 @@ ul li {
     color: white;
     margin-bottom: 20px;
 }
-
+/* footer section */
 .footer {
     margin-top: 160px;
-    padding: 100px 0;
+    padding: 100px 0px;
     background-color: #2e0653;
 }
 
