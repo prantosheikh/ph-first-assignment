@@ -26,6 +26,10 @@
     margin-bottom: 20px;
 }
 
+.Possible {
+    color: rgb(255, 255, 255);
+}
+
 .header-description {
     font-size: 15px;
     color: #424242;
@@ -39,7 +43,7 @@
     color: rgb(255, 255, 255);
     padding: 15px 30px;
     font-weight: 500;
-    background: rgb(39, 175, 111);
+    background-image: linear-gradient(to right, rgb(157, 10, 255), rgba(83, 100, 255, 0.863));
     border: none;
     border-radius: 5px;
 }
@@ -71,6 +75,20 @@
     margin-bottom: 40px;
 }
 
+.failures {
+    border-bottom: 5px solid rgb(17, 194, 32);
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.previous {
+    color: aliceblue;
+    background-color: rgba(4, 0, 255, 0.301);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
 .content-description {
     font-family: 'Kalam', cursive;
     color: #424242;
@@ -78,66 +96,147 @@
     line-height: 25px;
 }
 
-.content-description, {
-    
-    
-}
-.content-list, ul li{
+.content-description,
+{}
+
+.content-list,
+ul li {
     list-style: none;
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 .content-list i {
-color: rgb(0, 216, 0);
-margin-left: 5px;
+    color: rgb(0, 216, 0);
+    margin-left: 5px;
 }
+
 .content-description {
-font-size: 15px;
+    font-size: 15px;
 }
 
 /* skills section */
-.my-skills{
+.my-skills {
     margin: 60px 200px 50px 200px;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     justify-content: space-around;
-    gap:20px;
+    gap: 20px;
     text-align: center;
 }
-.skill-title{
+
+.skill-about {
+    /* border: 3px solid rgba(143, 1, 209, 0.507); */
+    height: 200px;
+    width: 200px;
+    padding: 25px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right, rgba(176, 147, 255, 0.178), rgba(181, 199, 81, 0.24));
+}
+
+.skill-title {
     margin: 10px 0;
     font-family: 'Pacifico', cursive;
 }
-.skill-description{
+
+.skill-description {
     font-family: 'Pacifico', cursive;
 
 }
+
 /*background*/
-.background{
+.background {
     margin: 70px 225px 50px 255px;
 }
-.background-image{
-    background-image: linear-gradient(to right, rgba(255, 17, 0, 0.575) , rgba(202, 202, 5, 0.233)), url(../images/watch.png);
+
+.background-image {
+    background-image: linear-gradient(to right, rgba(255, 17, 0, 0.575), rgba(202, 202, 5, 0.233)), url(../images/watch.png);
     padding: 50px 100px;
     background-repeat: no-repeat;
     border-radius: 5px;
 }
-.btn-primary{
+
+.btn-primary {
     font-size: 20px;
     color: rgb(243, 89, 0);
     padding: 15px 30px;
     font-weight: 500;
-    background: rgb(234, 255, 245);
+    background: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.background-title{
+
+.background-title {
     font-size: 35px;
     font-weight: 800;
     height: 64px;
     color: white;
     margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 160px;
+    padding: 100px 0;
+    background-color: #2e0653;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px;
+    gap: 20px;
+}
+
+.content-title-footer {
+    margin: 15px 0px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.content-description-footer {
+    font-size: 18px;
+    color: #F8F8FF;
+}
+
+.margin {
+    margin-left: 50px;
+}
+
+.mail {
+    font-size: 18px;
+    color: #F8F8FF;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.phone {
+    font-size: 20px;
+    color: #d5d5dd;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+img {
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.Subscribe {
+    color: #F8F8FF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px 15px;
+    margin: 15px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: transparent;
 }
